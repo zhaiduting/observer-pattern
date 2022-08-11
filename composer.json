@@ -1,0 +1,22 @@
+{
+    "name": "zhaiduting/observer-pattern",
+    "description": "observer pattern of PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhaiduting",
+            "email": "zhaiduting@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Zhaiduting\\ObserverPattern\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
